@@ -1,0 +1,105 @@
+//
+// Component: Component Title
+//
+// ========================================================================
+
+// REFERENCE --------------------------------------------------------------
+// ------------------------------------------------------------------------
+
+//Responsive text-sizing
+//@include rsp-text($sm: 0, $md: 0, $lg: 0, $xl: 0);
+
+//Responsive line-height-sizing
+//@include rsp-line-height($sm: 0, $md: 0, $lg: 0, $xl: 0);
+
+// Dividers
+// @include div("top");
+// @include div("top",#ccc);
+
+// -------------------------------------------------------------------------
+
+//@use "../_partials";
+
+footer#colophon {
+  background: url(/wp-content/uploads/2021/07/bg-footer-mountain.svg)
+      no-repeat bottom, #1D0157 !important;
+    //linear-gradient(180deg, #3e7bab -50%, #284667 100%) !important;
+    
+    background-size: contain !important;
+    
+    padding-bottom: 175px;
+    
+    @media (min-width: $breakpoint-small){
+        padding-bottom: 250px;
+    }
+    @media (min-width: $breakpoint-medium){
+        padding-bottom: 325px;    
+    }    
+    @media (min-width: $breakpoint-large){
+        padding-bottom: 450px;    
+    }
+    @media (min-width: 1800px){
+        padding-bottom: 650px;
+    }
+
+  .ubermenu-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    & > * {
+      width: 50%;
+    }
+  }
+
+  .maj-col {
+    & > ul {
+      @extend .uk-grid;
+    }
+    .uk-width-1-2 {
+      @media (max-width: $breakpoint-medium-max) {
+        width: 100% !important;
+      }
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  ul.ubermenu-submenu {
+    padding-bottom: 20px;
+      
+    & > li{
+        
+        &.uk-h6 > a{
+            color: white !important;
+        }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      color: white;
+    }
+  }
+
+  .uk-icon {
+    color: white;
+  }
+
+  .ubermenu-item-normal{ 
+      margin-bottom: 12px;
+      
+      & > .ubermenu-target {
+        //color: $text-muted-grey;
+        color: $grey-muted;
+        &:hover{
+            color: white;
+        }
+      }
+  }
+}

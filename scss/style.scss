@@ -1,0 +1,178 @@
+/*
+Theme Name: DataPath 2022
+Theme URI: http://underscores.me/
+Author: Profound Pixels
+Author URI: https://profoundpixels.com
+Description: Official theme for DataPath Website
+Version: 1.0.0
+Text Domain: customtheme
+*/
+
+
+// 1. Your custom variables and variable overwrites.
+
+@import "fonts.scss";
+
+@import "variables-theme-custom.scss";
+@import "variables-theme.scss";
+//@import "theme/accordion.scss";
+//@import "theme/alert.scss";
+//@import "theme/align.scss";
+//@import "theme/animation.scss";
+//@import "theme/article.scss";
+//@import "theme/background.scss";
+//@import "theme/badge.scss";
+//@import "theme/base.scss";
+@import "theme/breadcrumb.scss";
+//@import "theme/button.scss";
+//@import "theme/card.scss";
+//@import "theme/close.scss";
+//@import "theme/column.scss";
+//@import "theme/comment.scss";
+//@import "theme/container.scss";
+//@import "theme/countdown.scss";
+//@import "theme/description-list.scss";
+//@import "theme/divider.scss";
+//@import "theme/dotnav.scss";
+//@import "theme/drop.scss";
+//@import "theme/dropdown.scss";
+//@import "theme/form-range.scss";
+//@import "theme/form.scss";
+//@import "theme/grid.scss";
+//@import "theme/heading.scss";
+//@import "theme/height.scss";
+//@import "theme/icon.scss";
+//@import "theme/iconnav.scss";
+//@import "theme/inverse.scss";
+//@import "theme/label.scss";
+//@import "theme/leader.scss";
+//@import "theme/lightbox.scss";
+//@import "theme/link.scss";
+//@import "theme/list.scss";
+//@import "theme/margin.scss";
+//@import "theme/marker.scss";
+//@import "theme/modal.scss";
+//@import "theme/nav.scss";
+//@import "theme/navbar.scss";
+//@import "theme/notification.scss";
+//@import "theme/offcanvas.scss";
+//@import "theme/overlay.scss";
+//@import "theme/padding.scss";
+//@import "theme/pagination.scss";
+//@import "theme/placeholder.scss";
+//@import "theme/position.scss";
+//@import "theme/progress.scss";
+//@import "theme/search.scss";
+//@import "theme/section.scss";
+//@import "theme/slidenav.scss";
+//@import "theme/sortable.scss";
+//@import "theme/spinner.scss";
+//@import "theme/sticky.scss";
+//@import "theme/subnav.scss";
+//@import "theme/tab.scss";
+//@import "theme/table.scss";
+//@import "theme/text.scss";
+//@import "theme/thumbnav.scss";
+//@import "theme/tile.scss";
+//@import "theme/tooltip.scss";
+//@import "theme/totop.scss";
+//@import "theme/transition.scss";
+//@import "theme/utility.scss";
+//@import "theme/variables.scss";
+//@import "theme/width.scss";
+
+
+
+// 2. Import default variables and available mixins.
+@import "variables.scss";
+@import "mixins.scss";
+
+// 3. Your custom mixin overwrites.
+
+
+@import "partials.scss";
+//@import "theme-mixins/accordion-mixins.scss";
+//@import "theme-mixins/alert-mixins.scss";
+//@import "theme-mixins/align-mixins.scss";
+//@import "theme-mixins/animation-mixins.scss";
+//@import "theme-mixins/article-mixins.scss";
+@import "theme-mixins/background-mixins.scss";
+//@import "theme-mixins/badge-mixins.scss";
+@import "theme-mixins/base-mixins.scss";
+@import "theme-mixins/breadcrumb-mixins.scss";
+@import "theme-mixins/button-mixins.scss";
+@import "theme-mixins/card-mixins.scss";
+//@import "theme-mixins/close-mixins.scss";
+//@import "theme-mixins/column-mixins.scss";
+//@import "theme-mixins/comment-mixins.scss";
+//@import "theme-mixins/container-mixins.scss";
+//@import "theme-mixins/countdown-mixins.scss";
+//@import "theme-mixins/description-list-mixins.scss";
+//@import "theme-mixins/divider-mixins.scss";
+//@import "theme-mixins/dotnav-mixins.scss";
+//@import "theme-mixins/drop-mixins.scss";
+//@import "theme-mixins/dropdown-mixins.scss";
+//@import "theme-mixins/form-range-mixins.scss";
+//@import "theme-mixins/form-mixins.scss";
+//@import "theme-mixins/grid-mixins.scss";
+//@import "theme-mixins/heading-mixins.scss";
+@import "theme-mixins/height-mixins.scss";
+//@import "theme-mixins/icon-mixins.scss";
+//@import "theme-mixins/iconnav-mixins.scss";
+//@import "theme-mixins/inverse-mixins.scss";
+//@import "theme-mixins/label-mixins.scss";
+//@import "theme-mixins/leader-mixins.scss";
+//@import "theme-mixins/lightbox-mixins.scss";
+//@import "theme-mixins/link-mixins.scss";
+//@import "theme-mixins/list-mixins.scss";
+//@import "theme-mixins/margin-mixins.scss";
+//@import "theme-mixins/marker-mixins.scss";
+//@import "theme-mixins/modal-mixins.scss";
+@import "theme-mixins/nav-mixins.scss";
+//@import "theme-mixins/navbar-mixins.scss";
+//@import "theme-mixins/notification-mixins.scss";
+//@import "theme-mixins/offcanvas-mixins.scss";
+//@import "theme-mixins/overlay-mixins.scss";
+//@import "theme-mixins/padding-mixins.scss";
+//@import "theme-mixins/pagination-mixins.scss";
+//@import "theme-mixins/placeholder-mixins.scss";
+//@import "theme-mixins/position-mixins.scss";
+//@import "theme-mixins/progress-mixins.scss";
+//@import "theme-mixins/search-mixins.scss";
+//@import "theme-mixins/section-mixins.scss";
+//@import "theme-mixins/slidenav-mixins.scss";
+//@import "theme-mixins/slider-mixins.scss";
+//@import "theme-mixins/slideshow-mixins.scss";
+//@import "theme-mixins/sortable-mixins.scss";
+//@import "theme-mixins/spinner-mixins.scss";
+//@import "theme-mixins/sticky-mixins.scss";
+//@import "theme-mixins/subnav-mixins.scss";
+//@import "theme-mixins/tab-mixins.scss";
+//@import "theme-mixins/table-mixins.scss";
+@import "theme-mixins/text-mixins.scss";
+//@import "theme-mixins/thumbnav-mixins.scss";
+//@import "theme-mixins/tile-mixins.scss";
+//@import "theme-mixins/tooltip-mixins.scss";
+//@import "theme-mixins/totop-mixins.scss";
+//@import "theme-mixins/transition-mixins.scss";
+//@import "theme-mixins/utility-mixins.scss";
+//@import "theme-mixins/variables-mixins.scss";
+//@import "theme-mixins/width-mixins.scss";
+
+// Custom Components
+//@import "theme-components/_sample-component.scss";
+@import "theme-components/page-header-component.scss";
+@import "theme-components/nav-component.scss";
+@import "theme-components/footer-component.scss";
+@import "theme-components/subpage-component.scss";
+
+// Page Templates
+
+@import "theme-templates/tpl-wp-global.scss";
+//@import "theme-templates/tpl-home.scss";
+
+// Accessibility
+@import "theme/accessibility.scss";
+
+// 4. Import UIkit
+@import "uikit.scss";

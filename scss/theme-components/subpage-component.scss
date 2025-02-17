@@ -1,0 +1,73 @@
+//
+// Component: Component Title
+//
+// ========================================================================
+
+// REFERENCE ---------------------------------------------------------------
+// -------------------------------------------------------------------------
+
+//Responsive text-sizing
+//@include rsp-text($sm: 0, $md: 0, $lg: 0, $xl: 0);
+
+//Responsive line-height-sizing
+//@include rsp-line-height($sm: 0, $md: 0, $lg: 0, $xl: 0);
+
+// Dividers
+// @include div("top");
+// @include div("top",#ccc);
+
+// -------------------------------------------------------------------------
+
+//@use "../_partials";
+
+
+//Content Area --------------
+article.ppx-main-content{
+    & > p,
+    & > ol,
+    & > dl,
+    & > pre,
+    & > ul,
+    & > address,
+    & > img
+    & > iframe
+    & > fieldset,
+    & > figure,
+    & > blockquote,
+    & > h1,
+    & > h2,
+    & > h3,
+    & > h4,
+    & > h5,
+    & > h6,
+    & > .ppx-content-item{
+        padding-left: 30px;
+        padding-right: 30px;
+        
+        @media (min-width: $breakpoint-large){
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+    
+    & > ul{
+        @extend .uk-list;
+        @extend .uk-list-hyphen;
+        padding-left: 10px !important;
+        padding-right: 30px !important;
+        
+        @media (min-width: $breakpoint-large){
+            padding-left: 10px !important;
+            padding-right: 40px !important;
+        }
+    }
+}
+
+// Sidebar -----------------
+#page-content-secondary{
+    .uk-list.uk-nav{
+        a{
+            padding: 0;
+        }
+    }
+}

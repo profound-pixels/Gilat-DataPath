@@ -1,0 +1,179 @@
+
+
+/// RESPONSIVE TEXT SIZING ----------------------------
+
+@mixin rsp-text($sm: 0, $md: 0, $lg: 0, $xl: 0){
+
+    @if $sm !=0 {
+        @media (min-width: $breakpoint-small){
+            font-size: $sm;
+        }
+    }
+    @if $md !=0 {
+        @media (min-width: $breakpoint-small){
+            font-size: $md;
+        }
+    }
+    @if $lg !=0 {
+        @media (min-width: $breakpoint-small){
+            font-size: $lg;
+        }
+    }
+    @if $xl !=0 {
+        @media (min-width: $breakpoint-small){
+            font-size: $xl;
+        }
+    }
+    
+}
+//IMPLEMENTATION
+//@include rsp-text($sm: 0, $md: 0, $lg: 0, $xl: 0);
+
+
+/// RESPONSIVE LINE HEIGHT SIZING ---------------------
+
+@mixin rsp-line-height($sm: 0, $md: 0, $lg: 0, $xl: 0){
+
+    @if $sm !=0 {
+        @media (min-width: $breakpoint-small){
+            line-height: $sm;
+        }
+    }
+    @if $md !=0 {
+        @media (min-width: $breakpoint-small){
+            line-height: $md;
+        }
+    }
+    @if $lg !=0 {
+        @media (min-width: $breakpoint-small){
+            line-height: $lg;
+        }
+    }
+    @if $xl !=0 {
+        @media (min-width: $breakpoint-small){
+            line-height: $xl;
+        }
+    }
+    
+}
+//IMPLEMENTATION
+//@include rsp-text($sm: 0, $md: 0, $lg: 0, $xl: 0);
+
+
+
+/// Borders ----------------------------
+
+@mixin div($placement, $color: $global-border, $width: $global-border-width, $type: solid){
+    
+    @if $placement == "left" {
+        border-left: $width $type $color;
+    }
+    @if $placement == "right" {
+        border-right: $width $type $color;
+    }
+    @if $placement == "top" {
+        border-top: $width $type $color;
+    }
+    @if $placement == "bottom" {
+        border-bottom: $width $type $color;
+    }
+    @if $placement == "vertical" {
+        border-top: $width $type $color;
+        border-bottom: $width $type $color;
+    }
+    @if $placement == "horizontal" {
+        border-left: $width $type $color;
+        border-right: $width $type $color;
+    }
+    @if $placement == "responsive-left" {
+        @media (min-width: $breakpoint-medium){
+            border-left: $width $type $color;
+        }
+        @media(max-width: $breakpoint-small-max){
+            border-top: $width $type $color;
+        }
+    }
+    @if $placement == "responsive-right" {
+        @media (min-width: $breakpoint-medium){
+            border-right: $width $type $color;
+        }
+        @media(max-width: $breakpoint-small-max){
+            border-bottom: $width $type $color;
+        }
+    }
+    @if $placement == "responsive-horizontal" {
+        @media (min-width: $breakpoint-medium){
+            border-left: $width $type $color;
+            border-right: $width $type $color;
+        }
+        @media(max-width: $breakpoint-small-max){
+            border-top: $width $type $color;
+            border-bottom: $width $type $color;
+        }
+    }
+    @if $placement == "responsive-left-small" {
+        @media (min-width: $breakpoint-small){
+            border-left: $width $type $color;
+        }
+        @media(max-width: $breakpoint-xsmall-max){
+            border-top: $width $type $color;
+        }
+    }
+    @if $placement == "responsive-right-small" {
+        @media (min-width: $breakpoint-small){
+            border-right: $width $type $color;
+        }
+        @media(max-width: $breakpoint-xsmall-max){
+            border-bottom: $width $type $color;
+        }
+    }
+}
+//IMPLEMENTATION
+// @include div("top");
+// @include div("top",#ccc);
+
+
+%div-left{
+    @include div("left");
+}
+%div-right{
+    @include div("right");
+}
+%div-top{
+    @include div("top");
+}
+%div-bottom{
+    @include div("bottom");
+}
+%div-horizontal{
+    @include div("right");
+    @include div("left");
+}
+%div-vertical{
+    @include div("top");
+    @include div("bottom");
+}
+%div-responsive-right{
+    @include div("responsive-right");
+}
+%div-responsive-left{
+    @include div("responsive-left");
+}
+%div-responsive-right-small{
+    @include div("responsive-right-small");
+}
+%div-responsive-left-small{
+    @include div("responsive-left-small");
+}
+
+
+.div-left{ @extend %div-left; }
+.div-right{ @extend %div-right;}
+.div-top{ @extend %div-top;}
+.div-bottom{ @extend %div-bottom;}
+.div-horizontal{ @extend %div-horizontal;}
+.div-vertical{ @extend %div-vertical;}
+.div-responsive-right{ @extend %div-responsive-right;}
+.div-responsive-left{ @extend %div-responsive-left;}
+.div-responsive-right-small{ @extend %div-responsive-right-small;}
+.div-responsive-left-small{ @extend %div-responsive-left-small;}

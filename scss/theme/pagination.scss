@@ -1,0 +1,31 @@
+//
+// Component: Pagination
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+$pagination-margin-horizontal:                   20px !default;
+
+$pagination-item-color:                          $global-muted-color !default;
+$pagination-item-hover-color:                    $global-color !default;
+$pagination-item-hover-text-decoration:          none !default;
+$pagination-item-active-color:                   $global-color !default;
+$pagination-item-disabled-color:                 $global-muted-color !default;
+
+
+// Inverse
+// ========================================================================
+
+$inverse-pagination-item-color:                 $inverse-global-muted-color !default;
+$inverse-pagination-item-hover-color:           $inverse-global-color !default;
+$inverse-pagination-item-active-color:          $inverse-global-color !default;
+$inverse-pagination-item-disabled-color:        $inverse-global-muted-color !default;
+
+
+// @mixin hook-inverse-pagination-item(){}
+// @mixin hook-inverse-pagination-item-hover(){}
+// @mixin hook-inverse-pagination-item-active(){}
+// @mixin hook-inverse-pagination-item-disabled(){}

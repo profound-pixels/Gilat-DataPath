@@ -1,0 +1,17 @@
+// Name:            Grid
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+$grid-column-xsmall:                             100px !default;
+$grid-column-small:                              200px !default;
+$grid-column-medium:                             300px !default;
+$grid-column-large:                              400px !default;
+$grid-column-xlarge:                             500px !default;
+$grid-column-xxlarge:                            600px !default;
+
+$grid-gap-small:                                 $global-small-gutter !default;
+$grid-gap-medium:                                $global-gutter !default;
+$grid-gap-large:                                 $global-large-gutter !default;

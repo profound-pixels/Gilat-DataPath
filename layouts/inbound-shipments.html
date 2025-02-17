@@ -1,0 +1,344 @@
+<form id="upsform" class="form-horizontal" method="post" action="https://row.ups.com/Ship/LabelPost.aspx" target="_blank">
+    <fieldset class="uk-fieldset">
+        <input type="hidden" name="Company" value="DATAPATH" />
+        <input type="hidden" name="AcctNumb" value="X06678" />
+        <input type="hidden" name="PayAccount" maxLength="35" value="C3LhR750" />
+        <input type="hidden" name="PayInfo" value="P" />
+        <input type="hidden" name="UseNegotiatedRates" value="True" />
+        <input type="hidden" name="LoginId" value="DP-Vendor" />
+        <input type="hidden" name="Password" value="DP-Vendor" />
+        <div class="uk-grid" uk-grid>
+            <div class="uk-width-1-2@s">
+                <legend class="uk-h3 header-bar header-bar-muted">Ship From</legend>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Name or Company Name" name="SFName" maxLength="35" value="" required /> </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Attention" name="SFAttn" maxLength="35" value="" /> </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Address Line 1" name="SFAddr1" maxLength="35" value="" required /> </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Address Line 2" name="SFAddr2" maxLength="35" value="" /> </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Address Line 3" name="SFAddr3" maxLength="35" value="" /> </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="City" name="SFCity" maxLength="30" value="" required /> </div>
+                <div class="form-group">
+                    <select class="form-control uk-select uk-margin-bottom" name="SFState" maxLength="5" required>
+                        <option selected value="">State...</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="DC">District of Columbia</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Zip" name="SFZip" maxLength="9" value="" required /> </div>
+                <div class="form-group">
+                    <input type="hidden" class="form-control uk-input uk-margin-bottom" placeholder="SFCountry" name="SFCountry" maxLength="2" value="US" required /> </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Phone#" name="SFPhone" maxLength="15" value="" required /> </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Email" name="SFEMail" maxLength="50" value="" required /> </div>
+                <div class="form-group">
+                    <input type="hidden" class="form-control" placeholder="STName" name="STName" maxLength="35" value="Datapath, Inc" readonly />
+                    <input type="hidden" class="form-control" placeholder="STAddr1" name="STAddr1" maxLength="35" value="2205 Northmont Parkway" readonly/>
+                    <input type="hidden" class="form-control" placeholder="STCity" name="STCity" maxLength="30" value="Duluth" readonly />
+                    <input type="hidden" class="form-control" placeholder="STState" name="STState" maxLength="5" value="GA" readonly />
+                    <input type="hidden" class="form-control" placeholder="STZip" name="STZip" maxLength="9" value="30096" readonly />
+                    <input type="hidden" class="form-control" placeholder="STCountry" name="STCountry" maxLength="2" value="US" />
+                    <input type="hidden" class="form-control" placeholder="STPhone" name="STPhone" maxLength="15" value="6785970300" />
+                    <input type="hidden" class="form-control" placeholder="STEMail" name="STEMail" maxLength="50" value="noc@datapath.com" />
+                    <input type="hidden" class="form-control" placeholder="STResidental" name="STResidental" value="False" /> </div>
+            </div>
+            <div class="uk-width-1-2@s">
+                <legend class="uk-h3 header-bar header-bar-muted">Shipment Information</legend>
+                <input type="hidden" class="form-control" placeholder="LabelFormatROW" name="LabelFormatROW" value="1G" />
+                <input type="hidden" class="form-control" placeholder="RSType" name="RSType" value="2R" />
+                <input type="hidden" class="form-control" placeholder="CarbonNeutral" name="CarbonNeutral" value="False" />
+                <input type="hidden" class="form-control" placeholder="SatDelivery" name="SatDelivery" value="False" />
+                <input type="hidden" class="form-control" placeholder="HasInvoice" name="HasInvoice" value="False" />
+                <input type="hidden" class="form-control" placeholder="DelMethodROW" name="DelMethodROW" value="6A" />
+                <div class="form-group">
+                    <select class="form-control uk-select uk-margin-bottom" name="ServiceCode">
+                        <option selected value="03" required>Ground</option>
+                        <option value="02">2nd Day Air</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Description of merchandise" name="Desc" value="" required /> </div>
+                <legend class="uk-h3 header-bar header-bar-muted">Package Information</legend>
+                <div class="form-group">
+                    <label for="NumberOfPackages" class="control-label"># of Packages:</label>
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="# of Packages" id="NumberOfPackages" name="NumberOfPackages" value="" required /> </div>
+                <input type="hidden" class="form-control" placeholder="PackageType" name="PackageType" value="02" />
+                <div class="form-group">
+                    <label for="NumberOfPackages" class="control-label">Package Weight (LBS):</label>
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Package Weight in LBS" id="PackageWeight" name="PackageWeight" value="" required /> </div>
+                <input type="hidden" class="form-control" placeholder="PackageWeightUnit" name="PackageWeightUnit" value="LBS" />
+                <div class="form-group">
+                    <label for="NumberOfPackages" class="control-label">Package Reference:</label>
+                    <input type="text" class="form-control uk-input uk-margin-bottom" placeholder="Package Reference" name="PackageRef01" value="" required /> </div>
+                <input type="hidden" class="form-control" placeholder="STQVLabelCreated" name="STQVLabelCreated" value="False" />
+                <input type="hidden" class="form-control" placeholder="STQVInTransit" name="STQVInTransit" value="True" />
+                <input type="hidden" class="form-control" placeholder="STQVException" name="STQVException" value="True" />
+                <input type="hidden" class="form-control" placeholder="STQVDelivery" name="STQVDelivery" value="True" />
+                <br/>
+                <input type="submit" class="btn btn-primary uk-button uk-button-primary" value="Submit" />
+                <!--<button type="button" class="btn btn-info" id="validateBtn">Manual validate</button>-->
+            </div>
+        </div>
+    </fieldset>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/datapath/js/bootstrapValidator.min.js" id="bootstrap-validator"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#upsform').bootstrapValidator({
+            // live: 'disabled',
+            message: 'This value is not valid'
+            , feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok'
+                , invalid: 'glyphicon glyphicon-remove'
+                , validating: 'glyphicon glyphicon-refresh'
+            }
+            , fields: {
+                SFName: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Your name or company name is required.'
+                        }
+                    }
+                }
+                , SFAddr1: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Your address is required.'
+                        }
+                    }
+                }
+                , SFCity: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Your city is required.'
+                        }
+                    }
+                }
+                , SFState: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Your state is required.'
+                        }
+                    }
+                }
+                , SFZip: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Your zip code is required.'
+                        }
+                    }
+                }
+                , SFCountry: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Country field is required.'
+                        }
+                    }
+                }
+                , SFPhone: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Your phone# is required.'
+                        }
+                    }
+                }
+                , SFEMail: {
+                    validators: {
+                        emailAddress: {
+                            message: 'This is not a valid email address'
+                        }
+                    }
+                }
+                , STName: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , STAddr1: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , STCity: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , STState: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , STZip: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , STCountry: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , STPhone: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , STEMail: {
+                    validators: {
+                        emailAddress: {
+                            message: 'This is not a valid email address'
+                        }
+                    }
+                }
+                , STResidental: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , ServiceCode: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , Desc: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Please enter a brief description of the shipment.'
+                        }
+                    }
+                }
+                , NumberOfPackages: {
+                    validators: {
+                        numeric: {
+                            message: 'Please enter the number of packages.'
+                        }
+                    }
+                }
+                , PackageType: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , PackageWeight: {
+                    validators: {
+                        numeric: {
+                            message: 'Please enter the weight of the package in LBS.'
+                        }
+                    }
+                }
+                , PackageWeightUnit: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The field is required.'
+                        }
+                    }
+                }
+                , PackageRef01: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Please enter a reference# or internal PO.'
+                        }
+                    }
+                }
+                , captcha: {
+                    validators: {
+                        callback: {
+                            message: 'Wrong answer'
+                            , callback: function (value, validator) {
+                                var items = $('#captchaOperation').html().split(' ')
+                                    , sum = parseInt(items[0]) + parseInt(items[2]);
+                                return value == sum;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+        // Validate the form manually
+        $('#validateBtn').click(function () {
+            $('#upsform').bootstrapValidator('validate');
+        });
+        $('#resetBtn').click(function () {
+            $('#upsform').data('bootstrapValidator').resetForm(true);
+        });
+    });
+</script>

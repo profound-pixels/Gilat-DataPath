@@ -1,0 +1,76 @@
+// Column Customizations
+
+.wp-block-columns{
+    
+    
+    .wp-block-column{
+        @media (max-width: $breakpoint-xsmall-max){
+             margin-bottom: 1em;   
+        }
+    }
+    
+    &.ppx-three-columns{
+        
+        // Mobile-Only Styles
+        @media (max-width: $breakpoint-xsmall-max){
+            .wp-block-column{
+                margin-left: 0 !important;
+                flex-basis: auto !important;
+            }
+        }
+        
+        
+        // Tablet-Only Styles
+        @media (min-width: $breakpoint-small) and (max-width: $breakpoint-small-max){
+            flex-wrap: wrap !important;
+            
+            .title-card-column{
+                flex-basis: 100% !important;
+                margin-bottom: 1em;
+            }
+            .wp-block-column:nth-child(2){
+                margin-left: 0 !important;
+                flex-basis: .01%;
+            }
+            .wp-block-column:not(:first-child){
+                display: flex;
+                flex-grow: 1 !important;
+                & > div{
+                    display: flex;
+
+                    & > .uk-card {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    //Tablet and beyond styles
+    @media (min-width: $breakpoint-small){
+        .wp-block-column:not(:first-child){
+            margin-left: 1em !important;
+        }
+        .title-card-column{
+            display: flex;
+            & > div{
+                display: flex;
+
+                & > .uk-card {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+}
+
+
+.tags-links{
+    & > li > a {
+        @extend .uk-button;
+        @extend .uk-button-default;
+    }
+}

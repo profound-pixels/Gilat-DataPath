@@ -1,0 +1,84 @@
+//
+// Component: Component Title
+//
+// ========================================================================
+
+// REFERENCE ---------------------------------------------------------------
+// -------------------------------------------------------------------------
+
+//Responsive text-sizing
+//@include rsp-text($sm: 0, $md: 0, $lg: 0, $xl: 0);
+
+//Responsive line-height-sizing
+//@include rsp-line-height($sm: 0, $md: 0, $lg: 0, $xl: 0);
+
+// Dividers
+// @include div("top");
+// @include div("top",#ccc);
+
+// -------------------------------------------------------------------------
+
+//@use "../_partials";
+
+.page-header-card{
+    
+    .page-header-card-content{
+        min-height: 340px;
+        position: relative;
+        z-index: 2;
+        
+        @media (min-width: $breakpoint-small){
+            min-height: 420px;
+        }
+    }
+    .uk-breadcrumb{
+        position: relative;
+        z-index: 2;
+    }
+    position: relative;
+    overflow: hidden;
+    &:not(.has-feature){
+        &:after{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left:0;   
+            background-image:  url(img/bg-header-page-mountain.svg);
+            background-repeat:no-repeat;        
+            background-position:left bottom;
+        }
+    }
+    
+//    background-image: url(img/bg-header-page-mountain.svg);
+//    background-size: cover;
+    
+    &.product-card{
+        &:after{
+           background-image:  url(img/bg-header-product-mountain.svg) !important; 
+        }
+        
+        @media (max-width: $breakpoint-small-max){
+            min-height: 960px;
+        }
+        @media (max-width: $breakpoint-xsmall-max){
+            min-height: 720px;
+        }
+    }
+}
+
+.page-header{
+    
+    .product-img{
+        width:auto;
+        
+        @media (min-width: $breakpoint-large){
+            height: 450px;
+        }
+        
+        @media (min-width: $breakpoint-medium) and (max-width: $breakpoint-medium-max){
+                max-height: 480px !important;
+        }
+    }
+}

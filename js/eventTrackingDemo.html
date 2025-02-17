@@ -1,0 +1,21 @@
+
+
+<!-- Object in view example -->
+<div class="uk-card uk-card-default uk-card-hover uk-flex uk-flex-column"
+		 data-uk-scrollspy-class="uk-animation-slide-left-small"
+		 data-event-action="Category Card in View"
+		 data-event-category="Content in View"
+		 data-event-label="<?=$category->name?>">
+	
+</div>
+
+
+<!--  On click example  -->
+<button class="uk-button uk-button-default uk-width-1-1"
+		type="button"
+		uk-toggle="target: #study_modal_<?=get_the_ID()?>"
+		data-event-action="Click to See Study Data"
+		data-event-category="Select Content"
+		data-event-label="<?=$category->name . ' Study: ' .get_post_field('post_title')?>">
+	See the Data
+</button>

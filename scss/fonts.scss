@@ -1,0 +1,46 @@
+
+
+//@font-face {font-family: 'Noah';font-weight: bold;font-style: italic;src: url('fonts/393B6D_0_0.eot');src: url('fonts/393B6D_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/393B6D_0_0.woff2') format('woff2'),url('fonts/393B6D_0_0.woff') format('woff'),url('fonts/393B6D_0_0.ttf') format('truetype'),url('fonts/393B6D_0_0.svg#wf') format('svg');}
+//@font-face {font-family: 'Noah';font-weight: normal;font-style: normal;src: url('fonts/393B6D_1_0.eot');src: url('fonts/393B6D_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/393B6D_1_0.woff2') format('woff2'),url('fonts/393B6D_1_0.woff') format('woff'),url('fonts/393B6D_1_0.ttf') format('truetype'),url('fonts/393B6D_1_0.svg#wf') format('svg');}
+//@font-face {font-family: 'Noah';font-weight: normal;font-style: italic;src: url('fonts/393B6D_2_0.eot');src: url('fonts/393B6D_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/393B6D_2_0.woff2') format('woff2'),url('fonts/393B6D_2_0.woff') format('woff'),url('fonts/393B6D_2_0.ttf') format('truetype'),url('fonts/393B6D_2_0.svg#wf') format('svg');}
+//@font-face {font-family: 'Noah';font-weight: bold;font-style: normal;src: url('fonts/393B6D_3_0.eot');src: url('fonts/393B6D_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/393B6D_3_0.woff2') format('woff2'),url('fonts/393B6D_3_0.woff') format('woff'),url('fonts/393B6D_3_0.ttf') format('truetype'),url('fonts/393B6D_3_0.svg#wf') format('svg');}
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+//@import url("//hello.myfonts.net/count/3ea431");
+
+@font-face {
+//  font-family: "Franca-ExtraBold";
+  font-family: "Franca";
+  src: url('fonts/FrancaExtraBold/font.woff2') format('woff2'), url('webFonts/FrancaExtraBold/font.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+//  font-family: "Franca-SemiBold";
+  font-family: "Franca";
+  src: url('fonts/FrancaSemiBold/font.woff2') format('woff2'), url('webFonts/FrancaSemiBold/font.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+//  font-family: "Franca-Medium";
+  font-family: "Franca";
+  src: url('fonts/FrancaMedium/font.woff2') format('woff2'), url('webFonts/FrancaMedium/font.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+//  font-family: "Franca-Light";
+  font-family: "Franca";
+  src: url('fonts/FrancaLight/font.woff2') format('woff2'), url('webFonts/FrancaLight/font.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+//  font-family: "Franca-ExtraLight";
+  font-family: "Franca";
+  src: url('fonts/FrancaExtraLight/font.woff2') format('woff2'), url('webFonts/FrancaExtraLight/font.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}

@@ -1,0 +1,86 @@
+.tribe-events .tribe-events-c-search__button{
+    background-color: #E1AB25;
+}
+
+.tribe-common .tribe-common-c-btn, .tribe-common a.tribe-common-c-btn{
+    background-color: #E1AB25;
+    font-family: "Franca", Roboto, "Helvetica Neue", Arial;
+    text-transform: uppercase;
+}
+
+.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn:hover, .tribe-common a.tribe-common-c-btn:focus, .tribe-common a.tribe-common-c-btn:hover{
+    background-color: #d09c1d;
+}
+.tribe-events .tribe-events-c-search__button:focus, .tribe-events .tribe-events-c-search__button:hover{
+    background-color: #d09c1d;
+}
+
+.tribe-events .tribe-events-c-ical__link, .tribe-events .tribe-events-c-ical__link:visited{
+    border-color: #E1AB25;
+    color: #E1AB25;
+}
+.tribe-events .tribe-events-c-ical__link:active, .tribe-events .tribe-events-c-ical__link:focus, .tribe-events .tribe-events-c-ical__link:hover{
+    background-color: #E1AB25;
+}
+.tribe-common .tribe-common-c-svgicon{
+    color: #E1AB25;
+}
+
+.tribe-events .tribe-events-c-view-selector__list-item-text{
+    font-family: "Franca", Roboto, "Helvetica Neue", Arial; 
+}
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-form-control-text__input, .tribe-common .tribe-common-form-control-text__input{
+    font-family: "Franca", Roboto, "Helvetica Neue", Arial;
+}
+.tribe-events-schedule .recurringinfo, .tribe-events-schedule h2, .tribe-related-event-info .recurringinfo{
+    font-family: "Franca", Roboto, "Helvetica Neue", Arial;
+}
+
+.tribe-common .tribe-common-h1{
+   font-family: "Franca", Roboto, "Helvetica Neue", Arial; 
+}
+
+.tribe-common .tribe-common-h2{
+  font-family: "Franca", Roboto, "Helvetica Neue", Arial;  
+}
+
+.tribe-common .tribe-common-h3{
+    font-family: "Franca", Roboto, "Helvetica Neue", Arial;
+}
+
+.tribe-common .tribe-common-h4{
+   font-family: "Franca", Roboto, "Helvetica Neue", Arial; 
+}
+
+.tribe-common .tribe-common-h5{
+  font-family: "Franca", Roboto, "Helvetica Neue", Arial;  
+}
+
+.tribe-common .tribe-common-b1{
+    font-family: "Franca", Roboto, "Helvetica Neue", Arial;
+}
+
+.tribe-common .tribe-common-b2{
+    font-family: "Franca", Roboto, "Helvetica Neue", Arial;
+}
+
+.tribe-common .tribe-common-b3{
+    font-family: "Franca", Roboto, "Helvetica Neue", Arial;
+}
+
+
+.tribe-events .datepicker .day.active, .tribe-events .datepicker .day.active.focused, .tribe-events .datepicker .day.active:focus, .tribe-events .datepicker .day.active:hover, .tribe-events .datepicker .month.active, .tribe-events .datepicker .month.active.focused, .tribe-events .datepicker .month.active:focus, .tribe-events .datepicker .month.active:hover, .tribe-events .datepicker .year.active, .tribe-events .datepicker .year.active.focused, .tribe-events .datepicker .year.active:focus, .tribe-events .datepicker .year.active:hover{
+    background-color: #E1AB25; 
+}
+
+.tribe-events .tribe-events-calendar-month__multiday-event-bar {
+    background-color: #F5F9FC;
+}
+
+.tribe-events .tribe-events-calendar-month__multiday-event-bar-inner {
+    background-color: rgb(142 205 244 / 40%);
+}
+
+.tribe-events .tribe-events-calendar-month__multiday-event-bar-inner--focus, .tribe-events .tribe-events-calendar-month__multiday-event-bar-inner--hover, .tribe-events .tribe-events-calendar-month__multiday-event-bar-inner:focus, .tribe-events .tribe-events-calendar-month__multiday-event-bar-inner:hover{
+    background-color: rgb(142 205 244 / 60%);
+}
