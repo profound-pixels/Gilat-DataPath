@@ -1,29 +1,29 @@
 .tribe-events .tribe-events-c-search__button{
-    background-color: #E1AB25;
+    background-color: #FE8D1F;
 }
 
 .tribe-common .tribe-common-c-btn, .tribe-common a.tribe-common-c-btn{
-    background-color: #E1AB25;
+    background-color: #FE8D1F;
     font-family: "Franca", Roboto, "Helvetica Neue", Arial;
     text-transform: uppercase;
 }
 
 .tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn:hover, .tribe-common a.tribe-common-c-btn:focus, .tribe-common a.tribe-common-c-btn:hover{
-    background-color: #d09c1d;
+    background-color: #FE8D1F;
 }
 .tribe-events .tribe-events-c-search__button:focus, .tribe-events .tribe-events-c-search__button:hover{
-    background-color: #d09c1d;
+    background-color: #FE8D1F;
 }
 
 .tribe-events .tribe-events-c-ical__link, .tribe-events .tribe-events-c-ical__link:visited{
-    border-color: #E1AB25;
-    color: #E1AB25;
+    border-color: #FE8D1F;
+    color: #FE8D1F;
 }
 .tribe-events .tribe-events-c-ical__link:active, .tribe-events .tribe-events-c-ical__link:focus, .tribe-events .tribe-events-c-ical__link:hover{
-    background-color: #E1AB25;
+    background-color: #FE8D1F;
 }
 .tribe-common .tribe-common-c-svgicon{
-    color: #E1AB25;
+    color: #FE8D1F;
 }
 
 .tribe-events .tribe-events-c-view-selector__list-item-text{
@@ -70,11 +70,11 @@
 
 
 .tribe-events .datepicker .day.active, .tribe-events .datepicker .day.active.focused, .tribe-events .datepicker .day.active:focus, .tribe-events .datepicker .day.active:hover, .tribe-events .datepicker .month.active, .tribe-events .datepicker .month.active.focused, .tribe-events .datepicker .month.active:focus, .tribe-events .datepicker .month.active:hover, .tribe-events .datepicker .year.active, .tribe-events .datepicker .year.active.focused, .tribe-events .datepicker .year.active:focus, .tribe-events .datepicker .year.active:hover{
-    background-color: #E1AB25; 
+    background-color: #FE8D1F; 
 }
 
 .tribe-events .tribe-events-calendar-month__multiday-event-bar {
-    background-color: #F5F9FC;
+    background-color: #E6FCF7;
 }
 
 .tribe-events .tribe-events-calendar-month__multiday-event-bar-inner {
