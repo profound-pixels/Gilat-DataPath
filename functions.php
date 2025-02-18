@@ -150,7 +150,7 @@ add_action( 'widgets_init', 'ppx_starter_widgets_init' );
  * Enqueue scripts and styles.
  */
 function ppx_starter_scripts() {
-	wp_enqueue_style( 'ppx-starter-style', get_stylesheet_uri(), array(), '1.0' );
+	wp_enqueue_style( 'ppx-starter-style', get_stylesheet_uri(), array(), '2.0' );
 
 	wp_enqueue_script( 'ppx-starter-uikit', get_template_directory_uri() . '/js/uikit.min.js', array(), '3.7.0', false );
 
