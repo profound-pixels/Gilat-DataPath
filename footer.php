@@ -59,7 +59,7 @@
                                 +1 678 597 0300<br>
 			                </p>
 			            </li>
-                        <li class="uk-margin-bottom">
+                        <!-- <li class="uk-margin-bottom">
 			                <h6 class="header-bar header-bar-muted">International AB</h6>
 			                <p>
 			                    Vågögatan 6, P.O. Box 1261<br>
@@ -73,7 +73,7 @@
 			                    6170 Guardian Gateway, Suite 112<br>
                                 Aberdeen Proving Ground, MD 21005<br>
 			                </p>
-			            </li>
+			            </li> -->
 			        </ul>
 			    </div>
 			</div>
