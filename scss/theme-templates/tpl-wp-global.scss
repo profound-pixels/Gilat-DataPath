@@ -1,7 +1,7 @@
 // Column Customizations
 
 .wp-block-columns{
-    
+    gap: 1em !important;
     
     .wp-block-column{
         @media (max-width: $breakpoint-xsmall-max){
@@ -9,7 +9,7 @@
         }
     }
     
-    .ppx-three-columns{
+    &.ppx-three-columns{
         
         // Mobile-Only Styles
         @media (max-width: $breakpoint-xsmall-max){
@@ -26,7 +26,7 @@
             
             .title-card-column{
                 flex-basis: 100% !important;
-                margin-bottom: 1em;
+                margin-bottom: 0em;
             }
             .wp-block-column:nth-child(2){
                 margin-left: 0 !important;
@@ -51,7 +51,7 @@
     //Tablet and beyond styles
     @media (min-width: $breakpoint-small){
         .wp-block-column:not(:first-child){
-            margin-left: 1em !important;
+            margin-left: 0 !important;
         }
         .title-card-column{
             display: flex;
