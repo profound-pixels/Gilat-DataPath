@@ -189,10 +189,10 @@
             </div>
             <div class="uk-padding uk-background-default div-bottom">
                 <h3 class="header-bar header-bar muted uk-h4">Network Operations Center</h3>
-                <div class="uk-grid" uk-grid>
-                    <span class="uk-margin-small-right uk-text-warning uk-flex" uk-icon="icon: receiver"></span>
-                    <span class="uk-padding-remove-left uk-margin-remove-top uk-width-expand uk-text-top">+1 (866) 491-0842</span>
-                </div>
+                <p>Please send us an email.</p>
+                <ul class="uk-nav uk-list">
+                    <li><span class="uk-margin-small-right uk-text-warning" uk-icon="icon: mail"></span><a class="uk-display-inline" href="mailto:csc@datapath.com">csc@datapath.com</a></li>
+                </ul>
             </div>
             <div class="uk-padding uk-background-default div-bottom">
                 <h3 class="header-bar header-bar muted uk-h4">Parts Quotes</h3>
